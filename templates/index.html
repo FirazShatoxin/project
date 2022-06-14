@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>DurgerKingBot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no, viewport-fit=cover" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="MobileOptimized" content="176" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="robots" content="noindex, nofollow" />
+    <!-- Сюда нужно добавить ссылку на Питон -->
+    <script>
+      function setThemeClass() {
+        document.documentElement.className = Telegram.WebApp.colorScheme;
+      }
+      Telegram.WebView.onEvent('theme_changed', setThemeClass);
+      setThemeClass();
+    </script>
+    <link href="./css/main.css" rel="stylesheet">
+  </head>
+  <body style="display:flex">
+    <section class="category-page categories">
+        <div class="category py-item" data-item-id="1">
+        <div class="category-photo">
+                <picture class="category-birbalo py-category-birbalo">
+            <img src="./img/corn.png" width="120" height="120">
+          </picture>
+        </div>
+        <div class="category-label">
+          <!-- <span class="category-title">Corn</span> -->
+          <a href="./corn.html" class="button">Corn</a>
+        </div>
+        <!-- <div class="category-buttons">
+          <button class="category-link-button py-item-link-btn button-item ripple-handler">
+            <span class="button-item-label">View</span>
+            <span class="ripple-mask"><span class="ripple"></span></span>
+          </button>
+        </div> -->
+      </div>
+        <div class="category py-item" data-item-id="2">
+        <div class="cafe-item-photo">
+                <picture class="category-birbalo py-category-birbalo">
+                    <img src="./img/Soy.png" width="120" height="120">
+          </picture>
+        </div>
+        <div class="category-label">
+          <a href="./products/soy.html" class="button">Soy</a>
+        </div>
+        <!-- <div class="category-buttons">
+            <a href="./products/soy.html" class="button">View</a>
+        </div> -->
+      </div>
+
+      <div class="category py-item" data-item-id="3">
+        <div class="cafe-item-photo">
+                <picture class="category-birbalo py-category-birbalo">
+                    <img src="./img/sunflower-seed.png" width="120" height="120">
+          </picture>
+        </div>
+        <div class="category-label">
+            <a href="./products/sunflower-seeds.html" class="button">Sunflower seeds</a>
+          <!-- <span class="category-title">Sunflower seeds</span> -->
+        </div>
+        <!-- <div class="category-buttons">
+          <button class="cafe-item-incr-button py-item-incr-btn button-item ripple-handler">
+            <span class="button-item-label">View</span>
+            <span class="ripple-mask"><span class="ripple"></span></span>
+          </button>
+        </div> -->
+      </div>
+      <div class="catefory-status-wrap">
+        <div class="category-status py-status"></div>
+      </div>
+      </body>
+</html>
